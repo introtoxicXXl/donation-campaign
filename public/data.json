@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "img": "food1.jpg",
+        "title": "Delicious Burger",
+        "category": "Food",
+        "category_bg": "orange",
+        "card_bg": "rgb(255, 165, 0)",
+        "text_button_bg": "rgb(255, 140, 0)",
+        "description": "A mouth-watering burger with a juicy patty and fresh veggies.",
+        "price": 9.99
+    },
+    {
+        "id": 2,
+        "img": "education1.jpg",
+        "title": "Mathematics Course",
+        "category": "Education",
+        "category_bg": "red",
+        "card_bg": "rgb(220, 20, 60)",
+        "text_button_bg": "rgb(178, 34, 34)",
+        "description": "Comprehensive course covering various aspects of mathematics.",
+        "price": 49.99
+    },
+    {
+        "id": 3,
+        "img": "clothing1.jpg",
+        "title": "Stylish T-shirt",
+        "category": "Clothing",
+        "category_bg": "green",
+        "card_bg": "rgb(0, 128, 0)",
+        "text_button_bg": "rgb(34, 139, 34)",
+        "description": "A comfortable and trendy t-shirt for everyday wear.",
+        "price": 19.99
+    },
+    {
+        "id": 4,
+        "img": "health1.jpg",
+        "title": "Yoga Mat",
+        "category": "Health",
+        "category_bg": "blue",
+        "card_bg": "rgb(0, 0, 255)",
+        "text_button_bg": "rgb(30, 144, 255)",
+        "description": "High-quality yoga mat for your daily exercise routine.",
+        "price": 29.99
+    },
+    {
+        "id": 5,
+        "img": "food2.jpg",
+        "title": "Fresh Salad",
+        "category": "Food",
+        "category_bg": "orange",
+        "card_bg": "rgb(255, 165, 0)",
+        "text_button_bg": "rgb(255, 140, 0)",
+        "description": "A healthy and nutritious salad with fresh ingredients.",
+        "price": 7.99
+    },
+    {
+        "id": 6,
+        "img": "education2.jpg",
+        "title": "Language Course",
+        "category": "Education",
+        "category_bg": "red",
+        "card_bg": "rgb(220, 20, 60)",
+        "text_button_bg": "rgb(178, 34, 34)",
+        "description": "Learn a new language with this interactive language course.",
+        "price": 59.99
+    },
+    {
+        "id": 7,
+        "img": "clothing2.jpg",
+        "title": "Fashionable Dress",
+        "category": "Clothing",
+        "category_bg": "green",
+        "card_bg": "rgb(0, 128, 0)",
+        "text_button_bg": "rgb(34, 139, 34)",
+        "description": "A stylish and elegant dress for special occasions.",
+        "price": 79.99
+    },
+    {
+        "id": 8,
+        "img": "health2.jpg",
+        "title": "Fitness Tracker",
+        "category": "Health",
+        "category_bg": "blue",
+        "card_bg": "rgb(0, 0, 255)",
+        "text_button_bg": "rgb(30, 144, 255)",
+        "description": "Track your fitness goals with this advanced fitness tracker.",
+        "price": 99.99
+    },
+    {
+        "id": 9,
+        "img": "food3.jpg",
+        "title": "Scrumptious Pizza",
+        "category": "Food",
+        "category_bg": "orange",
+        "card_bg": "rgb(255, 165, 0)",
+        "text_button_bg": "rgb(255, 140, 0)",
+        "description": "A delightful pizza with a variety of toppings and cheese.",
+        "price": 12.99
+    },
+    {
+        "id": 10,
+        "img": "education3.jpg",
+        "title": "Science Course",
+        "category": "Education",
+        "category_bg": "red",
+        "card_bg": "rgb(220, 20, 60)",
+        "text_button_bg": "rgb(178, 34, 34)",
+        "description": "Explore the wonders of science through this engaging course.",
+        "price": 39.99
+    },
+    {
+        "id": 11,
+        "img": "clothing3.jpg",
+        "title": "Cozy Hoodie",
+        "category": "Clothing",
+        "category_bg": "green",
+        "card_bg": "rgb(0, 128, 0)",
+        "text_button_bg": "rgb(34, 139, 34)",
+        "description": "A warm and comfortable hoodie for chilly days.",
+        "price": 39.99
+    },
+    {
+        "id": 12,
+        "img": "health3.jpg",
+        "title": "Healthy Supplements",
+        "category": "Health",
+        "category_bg": "blue",
+        "card_bg": "rgb(0, 0, 255)",
+        "text_button_bg": "rgb(30, 144, 255)",
+        "description": "Boost your health with these natural and effective supplements.",
+        "price": 49.99
+    }
+]
