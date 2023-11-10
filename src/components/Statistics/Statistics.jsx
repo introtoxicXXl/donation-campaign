@@ -7,8 +7,8 @@ const Statistics = () => {
     const allDonate = 12;
     const yourDonate = (youDonate.length / allDonate) * 100;
     return (
-        <div className="w-3/5 mx-auto">
-            <div className="w-full">
+        <div className="w-full">
+            <div className="w-3/5 mx-auto">
                 <VictoryPie
                     labels={({ datum }) => `${datum.y.toFixed(2)}%`}
                     data={[
@@ -17,11 +17,11 @@ const Statistics = () => {
                     ]}
                     colorScale={["tomato", "orange"]}
                 ></VictoryPie>
-                <div className="flex justify-around my-6">
-                    <p className="">All Donation <span className="w-2 h-1 rounded bg-[tomato] text-transparent">fgfuyhgjb</span></p>
-                    <p className="">Your Donation <span className="w-2 h-1 rounded bg-[orange] text-transparent">fgfuyhgjb</span></p>
-                </div>
             </div>
+                <div className="flex justify-evenly my-6">
+                    <p className="text-sm">All Donation <span className="w-2 h-1 rounded bg-[tomato] text-transparent">fgfuyhgjb</span></p>
+                    <p className="text-sm">Your Donation <span className="w-2 h-1 rounded bg-[orange] text-transparent">fgfuyhgjb</span></p>
+                </div>
         </div>
     );
 };
