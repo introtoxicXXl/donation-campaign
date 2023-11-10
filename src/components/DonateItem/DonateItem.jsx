@@ -19,7 +19,7 @@ function DonateItem({ donateItem }) {
                 <p className={`mb-3 font-semibold  ${text_color}`}>${price}</p>
                 <div>
                     <Link to={`/details/${id}`} >
-                        <button className={`inline ${text_button_bg} px-4 py-2 rounded cursor-pointer text-white`}>View details</button>
+                        <button className={`inline ${text_button_bg} px-4 py-2 rounded cursor-pointer text-white`}>View Details</button>
                     </Link>
                 </div>
             </div >

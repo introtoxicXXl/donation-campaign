@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Banner from "../Banner/Banner";
 import './Home.css';
 import Donet from "../Donet/Donet";
+import swal from "sweetalert";
 
 const Home = () => {
     const [donets, setDonets] = useState([]);
@@ -14,7 +15,6 @@ const Home = () => {
                 setDonets(data)
                 setDisplayItem(data);
             })
-
     }, [])
     const handleSearch = e => {
         const inputText = e.target.input.value;
@@ -27,11 +27,15 @@ const Home = () => {
         } else if (inputText.toLowerCase() === 'health') {
             const educationItem = donets.filter(donat => donat.category === 'Health')
             setDisplayItem(educationItem);
-        } else if (inputText.toLowerCase() === 'clothing') {
+        } else if (inputText.toLowerCase() === 'clothing' ) {
             const educationItem = donets.filter(donat => donat.category === 'Clothing')
             setDisplayItem(educationItem);
         } else if (inputText.toLowerCase() === 'all') {
             setDisplayItem(donets);
+        }else {
+            swal("Sorry", "Type only category name", "error");
+            setDisplayItem([]);
+            
         }
         e.target.input.value = '';
         e.preventDefault()
