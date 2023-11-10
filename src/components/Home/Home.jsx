@@ -21,22 +21,19 @@ const Home = () => {
         if (inputText.toLowerCase() === 'education') {
             const educationItem = donets.filter(donat => donat.category === 'Education')
             setDisplayItem(educationItem);
-        }else if (inputText.toLowerCase() === 'food') {
+        } else if (inputText.toLowerCase() === 'food') {
             const educationItem = donets.filter(donat => donat.category === 'Food')
             setDisplayItem(educationItem);
-        }else if (inputText.toLowerCase() === 'health') {
+        } else if (inputText.toLowerCase() === 'health') {
             const educationItem = donets.filter(donat => donat.category === 'Health')
             setDisplayItem(educationItem);
-        }else if (inputText.toLowerCase() === 'clothing') {
+        } else if (inputText.toLowerCase() === 'clothing') {
             const educationItem = donets.filter(donat => donat.category === 'Clothing')
             setDisplayItem(educationItem);
-        }else if (inputText.toLowerCase() === 'all') {
+        } else if (inputText.toLowerCase() === 'all') {
             setDisplayItem(donets);
         }
-
-
-
-
+        e.target.input.value = '';
         e.preventDefault()
     }
     return (
