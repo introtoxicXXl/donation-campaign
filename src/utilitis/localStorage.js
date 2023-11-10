@@ -11,7 +11,10 @@ const saveCart = cart => {
 }
 const addToLs = id => {
     const cart = getItem();
-    cart.push(id);
-    saveCart(cart);
+    const exists = cart.find(cartId => cartId === id);
+    if(!exists){
+        cart.push(id);
+        saveCart(cart);
+    }
 }
 export { addToLs, getItem }
