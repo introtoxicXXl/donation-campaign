@@ -1,7 +1,7 @@
 import './Banner.css';
 const Banner = () => {
     return (
-        <div className=''>
+        <div className='banner z-10'>
             <h1 className='text-5xl font-bold text-black'>I Grow By Helping People In Need</h1>
             <div className='w-2/4 mx-auto mt-5'>
                 <form className="flex items-center">

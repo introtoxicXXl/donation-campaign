@@ -1,3 +1,16 @@
 .home{
     min-height: 80vh;
+    background-image: url('https://iili.io/JBhhlwX.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.home::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #fff;
+    opacity: .9;
 }
