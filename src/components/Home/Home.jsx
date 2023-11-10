@@ -16,7 +16,7 @@ const Home = () => {
             <div className="flex justify-center items-center home">
                 <Banner></Banner>
             </div>
-            <div className="grid grid-cols-4 gap-3 mt-28">
+            <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-3 mt-28">
                 {
                     donets.map(donet => <Donet
                         key={donet.id}
