@@ -1,8 +1,15 @@
-# React + Vite
+## Project Features:
+*React Router for Routing:
+-Utilizing React Router to facilitate seamless navigation within the project.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+*Tailwind for Styling:
+-Employing Tailwind CSS to enhance the styling and visual appeal of the project.
 
-Currently, two official plugins are available:
+*Victor for Pie Chart:
+-Incorporating the Victor library to create visually informative and dynamic pie charts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*Category-wise Color Scheme:
+-Implementing a category-wise color scheme to enhance the visual organization and differentiation of content.
+
+*Local Storage for Card Persistence:
+-Utilizing Local Storage to store and persistently manage card-related data, ensuring a seamless user experience across sessions.
